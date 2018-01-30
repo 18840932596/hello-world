@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第三种</title>
+
+    <style type="text/css">
+
+        div {
+            width: 450px;
+            height: 450px;
+        }
+
+    </style>
+    <script type="text/javascript">
+        window.onload=function(){
+
+            var width=document.body.scrollWidth;
+            var one=document.getElementById("one");
+            var left=(width-450)/2;
+            one.style.marginLeft=left+"px";
+
+            var height=document.body.scrollHeight;
+            var one=document.getElementById("one");
+            var top=(height-450)/2;
+            one.style.marginTop=top+"px";
+
+        };
+    </script>
+</head>
+<body>
+        <div id="one" >
+        <img src="img/xiao.jpg" class="two"/>
+    　　</div>
+
+</body>
+</html>
